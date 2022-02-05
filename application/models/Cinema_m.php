@@ -56,7 +56,7 @@ class Cinema_m extends CI_Model {
 
     public function select()
     {
-        // return $this->db->get('transactions')->result();
+        
         return $this->db->query("SELECT
             `transactions`.`order_id`
             , `users`.`name`
